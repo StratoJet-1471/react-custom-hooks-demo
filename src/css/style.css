@@ -1,0 +1,73 @@
+body {
+    box-sizing: border-box; 
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.f-manager__top-navbar {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 10px;
+}
+
+.f-manager__top-nav-description {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.f-manager__top-nav-link {
+    font-size: 18px;
+    color: blue;
+}
+
+.ship {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.ship.ready-to-sail {
+    border: 1px solid green;
+}
+
+.ship.not-ready-to-sail {
+    border: 1px solid red;
+}
+
+.ship__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ship__title-font {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.ship-params-panel {
+    padding: 2px;
+}
+
+.ship-params-panel span.ready-to-sail {
+    color: green;
+}
+
+.ship-params-panel span.not-ready-to-sail {
+    color: red;
+}
+
+.img {
+    height: auto;
+}
+
+.img.cruiser {
+    width: 900px;
+}
+
+.img.destroyer {
+    width: 600px;
+}
